@@ -22,7 +22,7 @@ class Sensor{
                 x: this.car.x-Math.sin(rayAngle)*this.rayLength,
                 y: this.car.y-Math.cos(rayAngle)*this.rayLength
             };
-            this.push([start, end]);
+            this.rays.push([start, end]);
         }
     }
 }
